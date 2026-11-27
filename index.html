@@ -215,6 +215,12 @@ section{scroll-margin-top:76px}
 .t-main{padding:clamp(28px,4.5vw,60px)}
 .t-main h2{font-size:clamp(34px,4.4vw,58px);font-weight:900}
 .t-main .lead{max-width:26em}
+.when{margin-top:1.6em;padding-top:.4em;border-top:1.5px dashed var(--dun);max-width:30em}
+.when div{display:grid;grid-template-columns:5.2em minmax(0,1fr);gap:0 1em;padding:.6em 0;border-bottom:1px solid rgba(224,208,182,.7);align-items:baseline}
+.when div:last-child{border-bottom:0}
+.when dt{font-size:14px;color:var(--sub);letter-spacing:.08em}
+.when dd{font-family:var(--serif);font-weight:700;color:var(--ink);font-size:16.5px;line-height:1.6;font-variant-numeric:tabular-nums}
+.when small{display:block;font-family:var(--sans);font-weight:400;font-size:13.5px;color:var(--sub)}
 .t-stub{border-left:2px dashed var(--dun);padding:clamp(24px,3.5vw,44px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:16px}
 .t-stub strong{font-family:var(--serif);font-size:21px;color:var(--ink)}
 .t-stub .btn{font-size:16.5px;padding:.9em 1.8em}
@@ -319,8 +325,8 @@ footer .disc{max-width:44em;margin:0 auto 1em;font-size:13px;line-height:1.75}
         </h1>
         <p class="lead">你以為呼吸是本能，其實大多數人一輩子都在<b>「淺淺地喘」</b>。用一堂課的時間，把呼吸重新練回來，鬆開緊繃、壓力與淺眠。</p>
         <div class="facts">
-          <span><svg class="leaf"><use href="#leaf"/></svg>實體精緻小班</span>
-          <span><svg class="leaf"><use href="#leaf"/></svg>限額招生</span>
+          <span><svg class="leaf"><use href="#leaf"/></svg>高雄・實體精緻小班</span>
+          <span><svg class="leaf"><use href="#leaf"/></svg>4 人成班・6 人額滿</span>
           <span><svg class="leaf"><use href="#leaf"/></svg>新手也能上手</span>
         </div>
         <div class="actions">
@@ -447,7 +453,9 @@ footer .disc{max-width:44em;margin:0 auto 1em;font-size:13px;line-height:1.75}
       <h2 class="sec-title">報名前常見的問題</h2>
       <div class="qa">
         <details><summary><h3>完全沒有基礎，可以上嗎？</h3></summary><p>可以。課程從 Level 1 核心基礎開始，老師會循序引導、逐一確認，新手也能上手。</p></details>
-        <details><summary><h3>上課時間、地點和費用是？</h3></summary><p>各班上課時間、地點與費用，皆於報名表單內說明，表單可以選擇班別。</p></details>
+        <details><summary><h3>上課時間、地點和費用是？</h3></summary><p>本期在高雄：1 月 10 日（日），Level 1 上午 10:00–12:00、Level 2 下午 14:00–16:00。地點是高雄市三民區正興路 117 號 3 樓（迷客夏樓上）。費用與匯款方式寫在報名表單裡。</p></details>
+        <details><summary><h3>上課要穿什麼？</h3></summary><p>請穿合身的服裝，運動內衣、貼身背心、緊身褲都可以，避免寬鬆上衣。課堂上會幫你拍課前、課後的體態紀錄照，合身才看得出身體線條的變化。現場可以更衣。</p></details>
+        <details><summary><h3>臨時不能來，可以退費嗎？</h3></summary><p>可以，依提出申請的時間計算：開課前 30 天以上全額退費（扣匯款手續費）、14–29 天退 90%、7–13 天退 80%、3–6 天退 50%。開課前 2 天內或開課後恕不退費，但可保留名額轉到下一梯次一次。完整規則寫在報名表單裡。</p></details>
         <details><summary><h3>還不確定適不適合我？</h3></summary><p>先看<a href="#video">免費分享課</a>，跟著妃妃老師練一次，感受引導方式再決定。</p></details>
       </div>
     </div>
@@ -459,11 +467,18 @@ footer .disc{max-width:44em;margin:0 auto 1em;font-size:13px;line-height:1.75}
         <div class="t-main">
           <h2>現在就把身體<br>交還給呼吸</h2>
           <p class="lead">實體精緻小班，帶你把長期的緊繃、壓力與淺眠一層一層鬆開。這是你可以帶一輩子的能力。</p>
+          <dl class="when">
+            <div><dt>本期場次</dt><dd>高雄場・1 月 10 日（日）</dd></div>
+            <div><dt>Level 1</dt><dd>上午 10:00–12:00</dd></div>
+            <div><dt>Level 2</dt><dd>下午 14:00–16:00</dd></div>
+            <div><dt>地點</dt><dd>高雄市三民區正興路 117 號 3 樓<small>迷客夏樓上</small></dd></div>
+            <div><dt>人數</dt><dd>每場 4 位新生成班，6 位額滿</dd></div>
+          </dl>
         </div>
         <div class="t-stub">
           <strong>各班名額有限・額滿即止</strong>
           <a class="btn" href="https://forms.gle/XpDd1TbTDiz8NkLdA" target="_blank" rel="noopener">立即填表報名<svg class="icon"><use href="#arrow"/></svg></a>
-          <p>各班上課時間、地點與費用，皆於報名表單內說明（表單可選擇班別）</p>
+          <p>費用與匯款方式請見報名表單<br>（先完成匯款，再填表）</p>
         </div>
       </div>
     </div>
@@ -474,13 +489,12 @@ footer .disc{max-width:44em;margin:0 auto 1em;font-size:13px;line-height:1.75}
   <div class="wrap">
     <div class="f-brand">妃妃老師的呼吸精緻專班</div>
     <div>重新學會呼吸，把緊繃、壓力與淺眠，慢慢還給身體。</div>
-    <div>主辦單位｜開原力工作室 ╳ 妃妃老師</div>
     <div class="f-links">
       <a href="https://forms.gle/XpDd1TbTDiz8NkLdA" target="_blank" rel="noopener">報名表單</a>
       <a href="https://www.instagram.com/fifi_yogamomy_tw" target="_blank" rel="noopener">IG ＠fifi_yogamomy_tw</a>
     </div>
     <p class="disc">本課程為呼吸與身體覺察教學，屬一般保健與運動練習，非醫療行為，不能取代任何醫療診斷、治療或藥物。若有相關疾病或身體不適，請先諮詢專業醫療人員。個人練習成效因人而異。</p>
-    <div>© 2026 開原力工作室 ╳ 妃妃老師的呼吸精緻專班</div>
+    <div>© 2026 妃妃老師的呼吸精緻專班</div>
   </div>
 </footer>
 
